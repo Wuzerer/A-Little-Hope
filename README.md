@@ -5,7 +5,7 @@
 ## Descripcion Corta
 
 Tras la marcha de tu padre, te ves forzado/a a empezar de cero en la casa de tu nueva familia. Entre una madrastra demasiado perfecta, una hermanastra que te odia en silencio y una pequeña que es un rayo de luz, tu único objetivo es sobrevivir.
-Pero en esta casa nada es lo que parece. Hay secretos ocultos tras las sonrisas y un misterio que late bajo la superficie... uno que te conectará con el destino de una niña llamada Neiko.
+Pero en esta casa nada es lo que parece. Hay secretos ocultos tras las sonrisas y un misterio que late bajo la superficie... uno que te conectará con el destino de una niña.
 ¿Podrás encontrar tu lugar y, a la vez, desenterrar una verdad que nunca debió ser descubierta?
 
 ---
