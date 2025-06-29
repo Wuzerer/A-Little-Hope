@@ -40,7 +40,7 @@ Tu objetivo inicial es simple: adaptarte. Sin embargo, esta no es una simple his
 
 ## 📸 Screenshots
 
-![Screenshot 1](./images/gui/seleccion_hover_m)
+![Screenshot 1](./images/gui/seleccion_hover_m.png)
 
 ---
 Desarrollado con **Ren'Py**.
