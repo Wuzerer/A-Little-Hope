@@ -30,7 +30,7 @@ Tu objetivo inicial es simple: adaptarte. Sin embargo, esta no es una simple his
 
 ## 👥 Personajes
 
-| Personaje | Descripción |
+| Personajes | Descripción |
 | :--- | :--- |
 | **Ana** <br> ![Foto de Ana](./images/sprites/ana/normal.png) | Ana es un rayo de luz y dulzura en la familia. Como la hermana menor, su curiosidad y amabilidad no tienen límites. Con su distintivo pelo azul y una margarita que refleja su espíritu alegre, ella es la primera en ofrecerte una amistad sincera y sin prejuicios. Su inocencia es un soplo de aire fresco que te recordará que no todo está perdido en este nuevo y complicado hogar. |
 | **Mana** <br> ![Foto de Mana](./images/sprites/mana/enojada.png) | Tu nueva hermanastra y compañera de clase, Mana, es una fortaleza de sarcasmo y hostilidad. Con una inteligencia afilada que usa para mantener las distancias, siempre tiene una respuesta cortante o una mirada de desaprobación. Su estilo impecable y su actitud fría son un escudo para los celos y la inseguridad que se niega a admitir, convirtiéndola en el principal obstáculo en tu nueva vida. |
