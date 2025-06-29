@@ -14,7 +14,7 @@ Pero en esta casa nada es lo que parece. Hay secretos ocultos tras las sonrisas 
 
 Esta historia comienza como muchas otras: con una familia fracturada y la obligación de empezar de nuevo. Al llegar a la casa de tu amorosa madrastra, Emily, y sus dos hijas, te enfrentas a un desafío inmediato. Por un lado, la hostilidad abierta de tu hermanastra Mana, quien parece resentir tu mera existencia. Por otro, la dulce inocencia de la pequeña Ana, que te ve como un nuevo hermano/a mayor.
 
-Tu objetivo inicial es simple: adaptarte. Sin embargo, esta no es una simple historia sobre lazos familiares. Es la antesala de un misterio mucho mayor. Tu llegada a esta casa es el catalizador que comenzará a desvelar la verdad sobre Amisterios que son desarrollados en secreto por la nueva ciudad, seres creados en circunstancias extraordinarias y cuyas existencias son el secreto mejor guardado de todos. Sumérgete en una narrativa donde tus interacciones diarias y las decisiones que tomes irán pelando las capas de un drama familiar para revelar en su núcleo una historia de ciencia ficción, ética y humanidad.
+Tu objetivo inicial es simple: adaptarte. Sin embargo, esta no es una simple historia sobre lazos familiares. Es la antesala de un misterio mucho mayor. Tu llegada a esta casa es el catalizador que comenzará a desvelar la verdad sobre misterios que son desarrollados en secreto por la nueva ciudad, seres creados en circunstancias extraordinarias y cuyas existencias son el secreto mejor guardado de todos. Sumérgete en una narrativa donde tus interacciones diarias y las decisiones que tomes irán pelando las capas de un drama familiar para revelar en su núcleo una historia de ciencia ficción, ética y humanidad.
 
 ---
 
