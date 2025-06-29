@@ -24,3 +24,6 @@ Emily es la madrastra del protagonista y el cálido corazón del nuevo hogar. Ro
 - Su fortaleza es silenciosa, pero inquebrantable.
 - Puede tener momentos de duda o tristeza, pero nunca deja de luchar por la familia.
 - Su ternura es un refugio para los demás personajes.
+- Emily sigue un libreto cuidadosamente preparado sobre el pasado del padre, pero nunca revela detalles genuinos.
+- Sus hijas son realmente suyas y no saben nada sobre el acuerdo con el padre ni sobre Umbra.
+- Emily no conoce la verdad completa sobre el trabajo del padre, solo lo que él le permite saber.
