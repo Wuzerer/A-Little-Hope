@@ -1,4 +1,7 @@
-﻿#Mouse
+﻿init python:
+    # Esto desasigna las teclas que activan el retroceso.
+    config.keymap['rollback'] = []
+#Mouse
 #init python:
 #    config.mouse = {
 #        'default': [
