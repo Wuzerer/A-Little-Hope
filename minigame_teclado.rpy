@@ -15,12 +15,12 @@ init python:
         "dificil": 0.7
     }
     # Lista de caracteres que pueden aparecer.
-    available_keys = "abcdefghijklmnopqrstuvwxyz"
+    available_keys = "abcdefghijklmnopqrstuvwxyz1234567890"
 
     # --- NOVEDAD: Listas para estilos aleatorios ---
     # ¡IMPORTANTE! Asegúrate de que los archivos de fuente (.ttf) listados aquí
     # estén físicamente presentes en la carpeta 'game/' de tu proyecto.
-    available_fonts = ["DejaVuSans-Bold.ttf"] # Se eliminó "cour.ttf". Añade aquí tus fuentes.
+    available_fonts = ["DejaVuSans-Bold.ttf", "CHALLXBD.TTF", "Dimbo Regular.ttf", "Fabiana.ttf", "Havana-Regular.ttf", "JdDin-2G4X.ttf", "Neuton-Bold.ttf", "Roboto-Condensed.ttf", "Santuy.otf", "VT323-Regular.ttf"] # Se eliminó "cour.ttf". Añade aquí tus fuentes.
 
     # Lista de colores en formato hexadecimal.
     available_colors = ["#FFFFFF", "#FF5733", "#33FF57", "#3357FF", "#F1C40F", "#9B59B6"]
@@ -32,7 +32,7 @@ init python:
 # --- 2. Variables del Estado del Minijuego ---
 default minigame_lives = 3
 default minigame_score = 0
-default minigame_target_score = 10
+default minigame_target_score = 20
 default _minigame_bg_image = "" # Variable para el fondo
 
 # --- 3. Pantalla de la Interfaz del Minijuego (Modificada) ---
@@ -89,6 +89,16 @@ screen minigame_ui(text_x, text_y, timeout_duration, target_char, char_font, cha
     key "x" action Return("x")
     key "y" action Return("y")
     key "z" action Return("z")
+    key "1" action Return("1")
+    key "2" action Return("2")
+    key "3" action Return("3")
+    key "4" action Return("4")
+    key "5" action Return("5")
+    key "6" action Return("6")
+    key "7" action Return("7")
+    key "8" action Return("8")
+    key "9" action Return("9")
+    key "0" action Return("0")
 
 # --- 4. Lógica y Flujo del Minijuego (Modificado) ---
 label start_minigame(bg_image, target_score=10, initial_lives=3):
