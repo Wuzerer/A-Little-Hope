@@ -23,7 +23,7 @@ init python:
     available_fonts = ["DejaVuSans-Bold.ttf", "CHALLXBD.TTF", "Dimbo Regular.ttf", "Fabiana.ttf", "Havana-Regular.ttf", "JdDin-2G4X.ttf", "Neuton-Bold.ttf", "Roboto-Condensed.ttf", "Santuy.otf", "VT323-Regular.ttf"] # Se eliminó "cour.ttf". Añade aquí tus fuentes.
 
     # Lista de colores en formato hexadecimal.
-    available_colors = ["#FFFFFF", "#FF5733", "#33FF57", "#3357FF", "#F1C40F", "#9B59B6"]
+    available_colors = ["#FFFFFF", "#FF5733", "#33FF57", "#3357FF", "#F1C40F", "#9B59B6", "#3ce7d9", "#055212", "#cc2e8f", "#f31225"]
 
     # Lista de posibles tamaños para el texto.
     available_sizes = [90, 100, 110, 120, 130]
