@@ -1,10 +1,9 @@
 # Archivo: intro.rpy
 
 # --- 1. Definimos una variable persistente ---
-# Esta variable no se borra cuando se empieza una partida nueva.
-# La primera vez que alguien juegue, será 'False'.
-default persistent.has_played_intro = False
-
+# Esta variable contará cuántas veces se ha completado la intro.
+# 0 = nunca, 1 = una vez, 2 = dos veces, etc.
+default persistent.intro_play_count = 0
 
 # --- 2. Código para declarar tus imágenes de la intro (sin cambios) ---
 define intro_musica = "audio/intro_music.mp3"
@@ -21,20 +20,43 @@ init python:
         ruta2_imagen = "images/intro/intro2/intro2_{}.png".format(i)
         renpy.image(tag2_imagen, ruta2_imagen)
 
+    # Añadimos la declaración para las imágenes de la tercera intro.
+    # ¡Recuerda crear estas imágenes en "game/images/intro/intro3/"!
+    for i in range(1, 10):
+        tag3_imagen = "intro3 " + str(i)
+        ruta3_imagen = "images/intro/intro3/intro3_{}.png".format(i)
+        renpy.image(tag3_imagen, ruta3_imagen)
 
-# --- 3. El inicio del juego, ahora con un "detector" ---
+    # Declaración para las imágenes de la cuarta intro.
+    # ¡Recuerda crear estas imágenes en "game/images/intro/intro4/"!
+    for i in range(1, 10):
+        tag4_imagen = "intro4 " + str(i)
+        ruta4_imagen = "images/intro/intro4/intro4_{}.png".format(i)
+        renpy.image(tag4_imagen, ruta4_imagen)
+
+    # Declaración para las imágenes de la quinta intro (y siguientes).
+    for i in range(1, 10):
+        tag5_imagen = "intro5 " + str(i)
+        ruta5_imagen = "images/intro/intro5/intro5_{}.png".format(i)
+        renpy.image(tag5_imagen, ruta5_imagen)
+
+
+# --- 3. El inicio del juego, ahora con un "detector" de partidas ---
 label start:
-    
+
     stop music fadeout 2.0
     play music intro_musica
+
     # ¡AQUÍ ESTÁ LA MAGIA!
-    # Comprobamos si el jugador ya ha visto la intro antes.
-    if persistent.has_played_intro:
-        
-        # Si ya la ha visto, le mostramos un mensaje rápido y diferente.
+    # Comprobamos cuántas veces ha visto el jugador la intro.
+
+    if persistent.intro_play_count == 1:
+
+        # --- INTRO PARA LA SEGUNDA VEZ ---
+        # Si ya la ha visto una vez, le mostramos un mensaje rápido y diferente.
         scene black
         with dissolve
-        
+
         # El personaje que habla en la intro te regaña por querer verla de nuevo.
         scene intro2 1
         with dissolve
@@ -50,7 +72,7 @@ label start:
         "Ah, mira quién volvió."
         scene intro2 5 at bg_zoom
         with dissolve
-        "Directo al grano, ¿eh? Me gusta tu estilo." 
+        "Directo al grano, ¿eh? Me gusta tu estilo."
         "Aunque pensé que ya te sabías la historia de memoria."
         "No es que me moleste, ¿eh? Es solo que..."
         scene intro2 6
@@ -69,18 +91,102 @@ label start:
         with dissolve
         pause 1.0
 
+        # ¡IMPORTANTE! Incrementamos el contador para la próxima vez.
+        $ persistent.intro_play_count += 1
+
         # Y lo saltamos directamente a la selección de género.
         jump seleccion_genero
 
-    # --- 4. La Intro Completa (SOLO PARA LA PRIMERA VEZ) ---
-    # Si 'persistent.has_played_intro' es False, el código de arriba se ignora
+    elif persistent.intro_play_count == 2:
+
+        # --- INTRO PARA LA TERCERA VEZ ---
+        scene black
+        with dissolve
+
+        scene intro3 1
+        with dissolve
+        pause 0.5
+        
+        scene intro3 2
+        with dissolve
+        "¿Otra vez por aquí? Ya eres como de la familia."
+        scene intro3 3
+        with dissolve
+        "Me caes bien. Te voy a contar un secreto..."
+        scene intro3 4
+        with dissolve
+        "O eso te dije la última vez... ¡Te engañé!"
+        scene intro3 1
+        with dissolve
+        "¡Aprecio tu dedicación! Venga, al lío."
+        pause 2.0
+
+        # Incrementamos para que la próxima vez sea la cuarta.
+        $ persistent.intro_play_count += 1
+        jump seleccion_genero
+
+    elif persistent.intro_play_count == 3:
+
+        # --- INTRO PARA LA CUARTA VEZ ---
+        scene black
+        with dissolve
+
+        # ¡Recuerda crear las imágenes en "game/images/intro/intro4/"!
+        scene intro4 1
+        with dissolve
+        pause 0.5
+
+        scene intro4 2
+        with dissolve
+        "Vale, esto ya es personal."
+        scene intro4 3
+        with dissolve
+        "¿Estás buscando algún easter egg? ¿Un código secreto?"
+        scene intro4 4
+        with dissolve
+        "No sé... ¿El teléfono de la desarrolladora?"
+        scene intro4 5
+        with dissolve
+        "Te aseguro que no hay nada de eso. Pero tu persistencia es admirable."
+        scene intro4 6
+        with dissolve
+        "Disfruta del juego, ¡otra vez!"
+        scene intro4 1
+        with dissolve
+        pause 2.0
+
+        # Incrementamos para que la próxima vez sea la quinta.
+        $ persistent.intro_play_count += 1
+        jump seleccion_genero
+
+    elif persistent.intro_play_count >= 4:
+
+        # --- INTRO PARA LA QUINTA VEZ (Y SIGUIENTES) ---
+        scene black
+        with dissolve
+
+        # ¡Recuerda crear las imágenes en "game/images/intro/intro5/"!
+        scene intro5 1
+        with dissolve
+        "..."
+        "Sin palabras. Has ganado. Eres el fan número uno."
+        "Ya no hay más intros. Esta es la definitiva. Lo juro."
+        "Ahora, por favor, ¡a jugar!"
+        pause 2.0
+
+        # No incrementamos más el contador, siempre verá esta intro a partir de ahora.
+
+        # Y lo saltamos directamente a la selección de género.
+        jump seleccion_genero
+
+
+    # --- INTRO COMPLETA (SOLO PARA LA PRIMERA VEZ) ---
+    # Si 'persistent.intro_play_count' es 0, el código de arriba se ignora
     # y el juego ejecuta esta secuencia completa.
-    
-    stop music fadeout 2.0
-    play music intro_musica
+
     scene black
     with dissolve
-    
+
     scene intro 1
     with dissolve
     pause 1
@@ -210,11 +316,8 @@ label start:
 
     # ¡LA PARTE CLAVE!
     # Después de que el jugador vea la intro completa por primera vez,
-    # cambiamos el valor de nuestra variable persistente a True.
-    $ persistent.has_played_intro = True
-    
-    # El diálogo de regaño ya no es necesario aquí.
-    # "Que no pienso volver a repetir todo esto, ¿ok?"
+    # incrementamos el contador. Ahora valdrá 1.
+    $ persistent.intro_play_count += 1
 
     stop music fadeout 2.0
     scene black
