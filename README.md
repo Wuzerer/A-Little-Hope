@@ -2,13 +2,11 @@
 
 ![Logo o imagen principal del juego](./gui/menu_logo.png)
 ##
-Género: Novela Visual, Drama, Slice of Life, Romance
 
-Plataformas: PC (Windows, Mac, Linux)
-
-Motor: Ren'Py 8.1+
-
-Estado: Alpha 0.01
+* Género: Novela Visual, Drama, Slice of Life, Romance
+* Plataformas: PC (Windows, Mac, Linux)
+* Motor: Ren'Py 8.1+
+* Estado: Alpha 0.01
 
 ---
 
