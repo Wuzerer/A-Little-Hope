@@ -38,7 +38,8 @@ Tu objetivo inicial es simple: adaptarte. Sin embargo, esta no es una simple his
 
 ## 🎭 Una Historia con Dos Caras
 * Al inicio del juego, tomarás la decisión más importante: jugar como un protagonista masculino o femenino.
-* Esta elección no es solo un cambio de avatar. Desbloquea rutas narrativas, escenas, diálogos y eventos completamente diferentes.
+* Esta elección no es solo un cambio de avatar.
+* Desbloquea rutas narrativas, escenas, diálogos y eventos completamente diferentes.
 * Vive el Capítulo 1 desde dos perspectivas únicas, cada una con sus propios desafíos y momentos especiales.
 
 ---
