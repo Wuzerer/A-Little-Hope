@@ -1,6 +1,16 @@
 # 🌙 Little Hope (Alpha)
 
 ![Logo o imagen principal del juego](./gui/menu_logo.png)
+##
+Género: Novela Visual, Drama, Slice of Life, Romance
+
+Plataformas: PC (Windows, Mac, Linux)
+
+Motor: Ren'Py 8.1+
+
+Estado: Alpha 0.01
+
+---
 
 ## Descripcion Corta
 
@@ -28,6 +38,20 @@ Tu objetivo inicial es simple: adaptarte. Sin embargo, esta no es una simple his
 
 ---
 
+## 🎭 Una Historia con Dos Caras
+* Al inicio del juego, tomarás la decisión más importante: jugar como un protagonista masculino o femenino.
+* Esta elección no es solo un cambio de avatar. Desbloquea rutas narrativas, escenas, diálogos y eventos completamente diferentes.
+* Vive el Capítulo 1 desde dos perspectivas únicas, cada una con sus propios desafíos y momentos especiales.
+
+---
+
+## 💬 Tus Decisiones Realmente Importan
+* Cada elección tiene un impacto tangible en la historia y tus relaciones.
+* Sistema de Afecto: Gana o pierde puntos de afecto con Emily, Ana y Mana. Tus decisiones determinarán si forjas una amistad sólida, un romance incipiente o una amarga rivalidad.
+* Sistema de Banderas (Flags): Pequeñas acciones, como devolver un osito de peluche, se registran y provocan cambios visuales y narrativos más adelante. Los personajes recordarán lo que hiciste.
+
+---
+
 ## 👥 Personajes
 
 | Personajes | Descripción |
@@ -44,4 +68,43 @@ Tu objetivo inicial es simple: adaptarte. Sin embargo, esta no es una simple his
 ![Screenshot 1](./images/intro/intro_29.png)
 
 ---
+
+## ⌨️ Minijuego de Reflejos
+En momentos de alta tensión, la historia se detiene para poner a prueba tus reflejos con un minijuego de teclado.
+
+* Desafío Dinámico: La tecla a pulsar cambia aleatoriamente de fuente, color, tamaño y posición en cada turno, ¡obligándote a estar alerta!
+* Consecuencias Reales: El resultado del minijuego (victoria o derrota) tiene un impacto directo en la narrativa. Ganar puede evitar un conflicto, mientras que perder puede traer consecuencias negativas.
+* Una Experiencia Inmersiva.
+* Hemos cuidado cada detalle para que te sumerjas por completo en el mundo del juego.
+
+---
+
+## 🚀 Estado Actual (Alpha 0.01)
+La versión actual incluye:
+
+[x] Flujo de creación de personaje completo (género y nombre).
+
+[x] Capítulo 1 completo con las dos rutas principales (masculina y femenina).
+
+[x] Sistemas de afecto y banderas 100% funcionales.
+
+[x] Minijuego de teclado integrado en la narrativa.
+
+[x] UI y menús personalizados.
+
+[x] Soporte para Español e Inglés.
+
+[ ] Sistema de Logros funcional.
+
+---
+
+## 📥 Cómo Jugar
+
+* Ve a la sección de Releases en este repositorio.
+* Descarga el archivo .zip para tu sistema operativo (Windows, Mac o Linux).
+* Descomprime el archivo.
+* Ejecuta el archivo ALittleHope.exe (en Windows) o el ejecutable correspondiente.
+  
+¡Disfruta del juego!
+
 Desarrollado con **Ren'Py**.
