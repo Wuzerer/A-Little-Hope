@@ -46,8 +46,10 @@ Tu objetivo inicial es simple: adaptarte. Sin embargo, esta no es una simple his
 
 ## 💬 Tus Decisiones Realmente Importan
 * Cada elección tiene un impacto tangible en la historia y tus relaciones.
-* Sistema de Afecto: Gana o pierde puntos de afecto con Emily, Ana y Mana. Tus decisiones determinarán si forjas una amistad sólida, un romance incipiente o una amarga rivalidad.
-* Sistema de Banderas (Flags): Pequeñas acciones, como devolver un osito de peluche, se registran y provocan cambios visuales y narrativos más adelante. Los personajes recordarán lo que hiciste.
+* Sistema de Afecto: Gana o pierde puntos de afecto con Emily, Ana y Mana.
+* Tus decisiones determinarán si forjas una amistad sólida, un romance incipiente o una amarga rivalidad.
+* Sistema de Banderas (Flags): Pequeñas acciones, como devolver un osito de peluche, se registran y provocan cambios visuales y narrativos más adelante.
+* Los personajes recordarán lo que hiciste.
 
 ---
 
